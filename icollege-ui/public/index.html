@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    
+    <title>iCollege</title>
+  </head>
+  <body class="stretched side-header">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="wrapper" className="clearfix"></div>
+    <div id="login" className="clearfix"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <div id="gotoTop" className="icon-angle-up"></div>
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script src="%PUBLIC_URL%/js/jquery.js"></script>
+    <script src="%PUBLIC_URL%/js/plugins.js"></script>
+
+    <!-- Bootstrap Data Table Plugin -->
+    <script src="%PUBLIC_URL%/js/components/bs-datatable.js"></script>
+    <!-- Bootstrap File Upload Plugin -->
+    <script src="%PUBLIC_URL%/js/components/bs-filestyle.js"></script>
+    <!-- Bootstrap File Upload Plugin -->
+    <script src="%PUBLIC_URL%/js/summernote.js"></script>
+    
+    <!-- Footer Scripts
+    ============================================= -->
+    <script src="%PUBLIC_URL%/js/functions.js"></script>
+
+    
+	<script>
+
+    $(document).ready(function() { 
+
+      $('#summernote').summernote();
+
+			
+      setTimeout(function() {
+          $('#alunos').DataTable( {
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese-Brasil.json"
+            }
+        } );
+      }, 2000)
+      
+      setTimeout(function() {
+          $('#professores').DataTable( {
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese-Brasil.json"
+            }
+        } );
+      }, 2000)
+      
+      setTimeout(function() {
+          $('#cursos').DataTable( {
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese-Brasil.json"
+            }
+        } );
+      }, 2000)
+      setTimeout(function() {
+          $('#disciplinas').DataTable( {
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese-Brasil.json"
+            }
+        } );
+      }, 2000)
+
+
+		});
+	</script>
+  </body>
+</html>
