@@ -2,6 +2,7 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 
 import Login from './pages/Login';
+import MeusDados from './pages/MeusDados';
 import Admin from './pages/Admin/Index';
 import ProfessoresForms from './pages/Admin/Professores/Form';
 import AlunosForms from './pages/Admin/Alunos/Form';
@@ -18,6 +19,7 @@ function Routes(){
             <Route path="/admin/cursoforms/:id?" component={CursosForms}/>
             <Route path="/admin/disciplinaforms/:id?" component={DisciplinasForms}/>
             <Route path="/login" exact component={Login}/>
+            <Route path="/meusdados" exact component={MeusDados}/>
         </Switch>
     );
 }

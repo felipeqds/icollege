@@ -70,7 +70,8 @@ class Header extends Component {
 										<p>{this.state.codigo}</p>
 										<p>{this.state.email}</p>
 										</div></li>
-									<li><a href="#"><div>Meus dados</div></a></li>
+									<li><a href="/admin"><div>Admin</div></a></li>
+									<li><a href="/meusdados"><div>Meus dados</div></a></li>
 									<li><a href="#" onClick={() => this.handleLogout()}><div>Logout</div></a></li>
 								</ul>
 		

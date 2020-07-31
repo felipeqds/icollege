@@ -99,7 +99,7 @@ class Alunos extends Component {
                                         </div>
                                         <div class="form-group row ">
                                             <div className="col-12">
-                                                <label for="template-contactform-subject">Curso: <small>*</small></label>
+                                                <label for="template-contactform-subject">Curso:  </label>
                                                 <select className="sm-form-control" value={this.state.cursoId} onChange={this.handleChange} id="cursoId" name="cursoId">
                                                 <option value="">Selecione um curso</option>
                                                     {this.state.cursos.map(curso =>(
@@ -111,14 +111,14 @@ class Alunos extends Component {
 
                                         <div class="form-group row ">
                                             <div className="col-12">
-                                                <label for="template-contactform-subject">Materiais: <small>*</small></label>
+                                                <label for="template-contactform-subject">Materiais:  </label>
                                                 <textarea onChange={this.handleChange}  type="text" value={this.state.materiais} class="form-control" id="materiais" name="materiais"/>
                                             </div>
                                         </div>
 
                                         <div class="form-group row ">
                                             <div className="col-12">
-                                                <label for="template-contactform-subject">Bibliografia: <small>*</small></label>
+                                                <label for="template-contactform-subject">Bibliografia:  </label>
                                                 <textarea onChange={this.handleChange} type="text" value={this.state.bibliografia} class="form-control" id="bibliografia" name="bibliografia" />
                                             </div>
                                         </div>

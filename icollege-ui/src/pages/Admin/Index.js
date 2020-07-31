@@ -62,9 +62,9 @@ class Admin extends Component {
                                             <ul className="list-group" style={{listStyle: "none"}}>
                                                 <li><a href="#tab-alunos" className="list-group-item list-group-item-action clearfix">Alunos <i className="icon-user float-right"></i></a></li>
                                                 <li><a href="#tab-professores" className="list-group-item list-group-item-action clearfix">Professores <i className="icon-user float-right"></i></a></li>
-                                                <li><a href="#tab-sub" className="list-group-item list-group-item-action clearfix">Turmas <i className="icon-laptop2 float-right"></i></a></li>
-                                                <li><a href="#tab-disciplinas" className="list-group-item list-group-item-action clearfix">Disciplinas <i className="icon-envelope2 float-right"></i></a></li>
-                                                <li><a href="#tab-curso" className="list-group-item list-group-item-action clearfix">Cursos <i className="icon-envelope2 float-right"></i></a></li>
+                                                <li><a href="#tab-sub" className="list-group-item list-group-item-action clearfix">Turmas <i className="icon-user float-right"></i></a></li>
+                                                <li><a href="#tab-disciplinas" className="list-group-item list-group-item-action clearfix">Disciplinas <i className="icon-user float-right"></i></a></li>
+                                                <li><a href="#tab-curso" className="list-group-item list-group-item-action clearfix">Cursos <i className="icon-user float-right"></i></a></li>
                                             </ul>
                                             <ul className="list-group" style={{listStyle: "none"}}>
                                                 <li><a href="#" onClick={() => this.handleLogout()} className="list-group-item list-group-item-action clearfix">Logout <i className="icon-line2-logout float-right"></i></a></li>

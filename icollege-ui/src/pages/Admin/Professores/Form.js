@@ -109,7 +109,7 @@ class Professores extends Component {
                                                 <input onChange={this.handleChange}  type="text" value={this.state.cpf} class="form-control" id="cpf" name="cpf" placeholder="CPF"/>
                                             </div>
                                             <div className="col-6">
-                                                <label for="template-contactform-subject">Nascimento: <small>*</small></label>
+                                                <label for="template-contactform-subject">Nascimento:  </label>
                                                 <input onChange={this.handleChange}  type="text" value={this.state.nascimento} class="form-control" id="nascimento" name="nascimento" placeholder="Nascimento"/>
                                             </div>
 
@@ -121,7 +121,7 @@ class Professores extends Component {
                                                 <input onChange={this.handleChange}  type="text" value={this.state.sexo} class="form-control" id="sexo" name="sexo" placeholder="Sexo"/>
                                             </div>
                                             <div className="col-6">
-                                                <label for="template-contactform-subject">Email: <small>*</small></label>
+                                                <label for="template-contactform-subject">Email:  </label>
                                                 <input onChange={this.handleChange}  type="text" value={this.state.email} class="form-control" id="email" name="email" placeholder="Email"/>
                                             </div>
                                         </div>

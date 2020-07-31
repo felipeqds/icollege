@@ -18,7 +18,7 @@ class Login extends Component{
 			if(response.data.token !== ""){	
 				localStorage.setItem('token', response.data.token)
 				localStorage.setItem('cpf', response.data.cpf)
-				window.location.href ='/admin'
+				window.location.href ='/meusdados'
 			}
 		}catch(err){
 			localStorage.setItem('token', "")

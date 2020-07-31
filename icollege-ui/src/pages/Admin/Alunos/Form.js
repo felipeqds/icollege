@@ -108,7 +108,7 @@ class Alunos extends Component {
                                         </div>
                                         <div class="form-group row ">
                                             <div className="col-6">
-                                                <label for="template-contactform-subject">Código: <small>*</small></label>
+                                                <label for="template-contactform-subject">Código:  </label>
                                                 <input onChange={this.handleChange}   type="text" value={this.state.codigo} class="form-control" id="codigo" name="codigo" placeholder="Código"/>
                                             </div>
 
@@ -120,7 +120,7 @@ class Alunos extends Component {
 
                                         <div class="form-group row ">
                                             <div className="col-6">
-                                                <label for="template-contactform-subject">Nascimento: <small>*</small></label>
+                                                <label for="template-contactform-subject">Nascimento:  </label>
                                                 <input onChange={this.handleChange}  type="text" value={this.state.nascimento} class="form-control" id="nascimento" name="nascimento" placeholder="Nascimento"/>
                                             </div>
 
@@ -132,7 +132,7 @@ class Alunos extends Component {
 
                                         <div class="form-group row ">
                                             <div className="col-6">
-                                                <label for="template-contactform-subject">Email: <small>*</small></label>
+                                                <label for="template-contactform-subject">Email:  </label>
                                                 <input onChange={this.handleChange}  type="text" value={this.state.email} class="form-control" id="email" name="email" placeholder="Email"/>
                                             </div>
 
